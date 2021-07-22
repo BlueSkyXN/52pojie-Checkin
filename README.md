@@ -17,6 +17,8 @@
 
 比如：https://www.blueskyxn.com/202107/4816.html
 
+整合包在 Release页面
+
 # 配置文件
 
 全部写死在文件内，直接改文件，不需要外挂变量
