@@ -1,6 +1,8 @@
 # 52pojie-Checkin
 
-52pojie签到 Py3单程序 支持云函数
+52pojie 吾爱破解论坛 签到
+
+Py3单程序 支持云函数/服务器等Py3运行
 
 只需要Cookie即可运行
 
