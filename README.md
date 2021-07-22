@@ -24,3 +24,9 @@ Py3单程序 支持云函数/服务器等Py3运行
 # 配置文件
 
 全部写死在文件内，直接改文件，不需要外挂变量
+
+# 参考项目
+
+https://github.com/sanshuifeibing/ExampleForSCF
+
+https://github.com/BlueSkyXN/189Cloud-Checkin
