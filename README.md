@@ -6,7 +6,16 @@ Py3单程序 支持云函数/服务器等Py3环境运行
 
 只需要Cookie即可运行
 
+# 新版说明
+
+依赖包请用项目 https://github.com/BlueSkyXN/requirements-serverless
+
+需要填写的参数有 cookie,TGBOTAPI,TGID
+
+可在云函数环境变量中填写,也可以直接改文件(记得加引号,单双应该都行)
+
 # 内置TG推送
+
 格式如下：
 
 🏆52破解签到姬🏆

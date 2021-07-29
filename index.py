@@ -1,15 +1,34 @@
 import requests 
 from bs4 import BeautifulSoup
+import time
+import re
+import rsa
+import base64
+import hashlib
+import os
+import sys
 
-cookie = ''
+sys.path.append('.')
+requests.packages.urllib3.disable_warnings()
+try:
+    from pusher import pusher
+except:
+    pass
+from urllib import parse
+
 result = '🏆52破解签到姬🏆\n'
 
+cookie = os.environ.get("cookie")
+TGBOTAPI = os.environ.get("TGBOTAPI")
+TGID = os.environ.get("TGID")
+
 def pushtg(data):
+    global TGBOTAPI
+    global TGID
     requests.post(
-        'https://api.telegram.org/bot123456:abcdefghi/sendMessage?chat_id=123456&text='+data)
+        'https://api.telegram.org/bot'+TGBOTAPI+'/sendMessage?chat_id='+TGID+'&text='+data)
 
-
-# 【BOTAPI】格式为bot123456:abcdefghi
+# 【BOTAPI】格式为123456:abcdefghi
 # 【TGID】格式为123456（人）或者-100123456（群组/频道）
 
 def main():
